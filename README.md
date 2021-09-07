@@ -2,7 +2,7 @@
 
 This is the repository for the article: Building the bridge: Topic modeling for comparative research. The article is accepted at Communication Methods and Measures. http://dx.doi.org/10.1080/19312458.2021.1965973
 
-We here provide instructions that faciliate the implementation of PLTM (Mimno et al., 2009) for projects. Our instructions build mainly on code and guidelines that can be accessed here http://mallet.cs.umass.edu/ and http://mallet.cs.umass.edu/topics-polylingual.php
+We here provide instructions that faciliate the implementation of PLTM (Mimno et al., 2009) for projects. Our instructions build mainly on code, example ideas, and guidelines that can be accessed here http://mallet.cs.umass.edu/ and http://mallet.cs.umass.edu/topics-polylingual.php
 
 # Motivation
 PLTM can be used for projects that wish to derive topics for a multilingual corpus and different cases. It is useful to identify one topic model for the entire multilingual corpus, which allows the direct quantitative comparisons of topic probabilities across cases.
@@ -12,8 +12,8 @@ PLTM can be used for projects that wish to derive topics for a multilingual corp
 
 # Step 1: Create input data
 
-- tuples (aligned data)
-- unaligned data
+- tuples (aligned data): Prepare one .txt file per language with texts that are topically-comparable across language. See "en.txt", "es.txt", "de.txt" for an example. 
+- unaligned data: Prepare one .txt file per language. See "unalighned.en.txt", "unalighned_es.txt", "unalighned_de.txt" for an example. 
 
 # Step 2: Run PLTM 
 
