@@ -12,10 +12,12 @@ PLTM can be used for projects that wish to derive topics for a multilingual corp
 
 # Step 1: Create input data
 
-- tuples (aligned data): Prepare one .txt file per language with texts that are topically-comparable across language. See "en.txt", "es.txt", "de.txt" for an example. 
-- unaligned data: Prepare one .txt file per language. See "unalighned.en.txt", "unalighned_es.txt", "unalighned_de.txt" for an example. 
+- tuples (aligned data): Prepare one .txt file per language with texts that are topically-comparable across language. See "en.txt", "es.txt", "de.txt" in the folder my_data for an example. 
+- unaligned data: Prepare one .txt file per language. See "unalighned.en.txt", "unalighned_es.txt", "unalighned_de.txt" in the folder my_data for an example. 
 
-Pre-processing all texts as comparable as possible is recommended. This relates for example to stop word lists that are comparable across languages. 
+Pre-processing all texts as comparable as possible is recommended. The example files include the lemmatized versions of the texts.
+
+
 
 # Step 2: Run PLTM 
 
