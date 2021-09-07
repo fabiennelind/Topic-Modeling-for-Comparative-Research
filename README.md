@@ -5,8 +5,7 @@ This is the repository for the article: Building the bridge: Topic modeling for 
 We here provide instructions that faciliate the implementation of PLTM (Mimno et al., 2009) for projects. Our instructions build mainly on code and guidelines that can be accessed here http://mallet.cs.umass.edu/ and http://mallet.cs.umass.edu/topics-polylingual.php
 
 # Motivation
-PLTM can be used for projects that wish to derive topics for a multilingual corpus and different cases. to identify one topic model for the entire multilingual corpus, which allows the direct quantitative
-comparisons of topic probabilities across cases
+PLTM can be used for projects that wish to derive topics for a multilingual corpus and different cases. It is useful to identify one topic model for the entire multilingual corpus, which allows the direct quantitative comparisons of topic probabilities across cases.
 
 
 ## Instructions
