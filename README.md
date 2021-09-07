@@ -15,6 +15,8 @@ PLTM can be used for projects that wish to derive topics for a multilingual corp
 - tuples (aligned data): Prepare one .txt file per language with texts that are topically-comparable across language. See "en.txt", "es.txt", "de.txt" for an example. 
 - unaligned data: Prepare one .txt file per language. See "unalighned.en.txt", "unalighned_es.txt", "unalighned_de.txt" for an example. 
 
+Pre-processing all texts as comparable as possible is recommended. This relates for example to stop word lists that are comparable across languages. 
+
 # Step 2: Run PLTM 
 
 - prepare sequences for aligned training (tuples)
