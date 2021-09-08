@@ -1,6 +1,6 @@
 # Topic-Modeling-for-Comparative-Research
 
-This is the repository for the article: Building the bridge: Topic modeling for comparative research. The article is accepted at Communication Methods and Measures. http://dx.doi.org/10.1080/19312458.2021.1965973
+This is the repository for the article: Building the bridge: Topic modeling for comparative research. The article is published in Communication Methods and Measures. http://dx.doi.org/10.1080/19312458.2021.1965973
 
 We here provide instructions that faciliate the implementation of PLTM (Mimno et al., 2009) for projects. Our instructions build mainly on code, example ideas, and guidelines that can be accessed here http://mallet.cs.umass.edu/ and http://mallet.cs.umass.edu/topics-polylingual.php
 
