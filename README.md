@@ -22,7 +22,7 @@ Pre-processing all texts as comparable as possible is recommended. The example f
 # Step 2: Run PLTM 
 
 Download and install mallet: see: http://mallet.cs.umass.edu/
-Run the 'pltm.sh' file. Place the input data files in the 'my_data' folder. The folder structure is set up automatically when downloading mallet. 
+Run the 'pltm.sh' file. Place the input data files in the 'my_data' folder. Place customized stopword lists (one .txt file per language, one word per line) in the folder stoplists. The folder structure is set up automatically when downloading mallet. 
 The 'pltm.sh' script will perform the following steps:
 
 - prepare sequences for aligned training (tuples)
@@ -32,8 +32,10 @@ The 'pltm.sh' script will perform the following steps:
 
 # Step 3: Evaluate output
 
-- keys (coherence = wie gut innerhalb sprache (nmpi), consistency = wie gut across sprachen (mta))
-- topic probabilities per document (compare against ground truth / manual inspection)
+To evalute the top words per topic per model, the metrics NMPI and MTA can be calculated.
+We prepared the 'evaluation_steps.R' file to assist with both. Line 10-125 include the code for NMPI calculation. Line 132-280 the code for MTA calculation. At line  74, the instruction published here https://github.com/jhlau/topic_interpretability for the paper Lau et al. (2014) https://aclanthology.org/E14-1056 have to be followed as an intermediate step. On line 191 the python script 'translate_top_terms.py' have to be calculated as an intermediate step.
+
+To evaluate the PLTM results further, we strongly recommend to compare the infered topic probabilities per document against ground truth. 
 
 
 
