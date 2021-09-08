@@ -21,9 +21,13 @@ Pre-processing all texts as comparable as possible is recommended. The example f
 
 # Step 2: Run PLTM 
 
+Download and install mallet: see: http://mallet.cs.umass.edu/
+Run the 'pltm.sh' file. Place the input data files in the 'my_data' folder. The folder structure is set up automatically when downloading mallet. 
+The 'pltm.sh' script will perform the following steps:
+
 - prepare sequences for aligned training (tuples)
 - prepare sequences for unaligned corpus and use pipe from aligned data
-- train pltm = create inferencer per language, keys, model
+- train pltm with aligned data = create inferencer per language, top words per topic (i.e., keys)
 - calculate probabilities for sequences of unaligned data (full corpus) with trained inferencers
 
 # Step 3: Evaluate output
